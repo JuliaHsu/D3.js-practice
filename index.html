@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>D3-SVG</title>
+
+    <!-- You can import css from local files like this. -->
+    <link rel="stylesheet" href="styles.css" />
+
+    <!-- Libraries can be included like this from a CDN. -->
+    <script src="https://unpkg.com/d3@5.16.0/dist/d3.min.js"></script>
+  </head>
+  <body>
+    <div id="message"></div>
+    <svg width = "760", height =  "140">
+<!--       The <g> SVG element is a container used to group other SVG elements. -->
+    	<g transform = "translate(70,70)">
+      	<circle r = "40" />
+        <circle r = "40" cx = "120" />
+        <circle r = "40" cx = "240" />
+        <circle r = "40" cx = "360" />
+        <circle r = "40" cx = "480"/>
+      </g>
+    </svg>
+    <script src="bundle.js"></script>
+  </body>
+</html>
